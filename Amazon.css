@@ -266,3 +266,112 @@ ul a{
     margin: 8px;
     font-size: 15px;
 }
+
+
+
+
+/* =========================
+   MOBILE VIEW RESPONSIVE
+   ========================= */
+
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .nav-logo,
+    .nav-address,
+    .nav-signin,
+    .nav-return,
+    .nav-cart {
+        margin: 5px 0;
+    }
+
+    /* SEARCH BAR */
+    .nav-search {
+        width: 95%;
+        margin: 10px 0;
+    }
+
+    /* PANEL */
+    .panel {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .panel-ops {
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .panel-ops p {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    /* HERO SECTION */
+    .hero-section {
+        height: 250px;
+    }
+
+    .hero-msg {
+        width: 95%;
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
+    /* SHOP SECTION */
+    .box {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    /* FOOTER */
+    .foot-panel2 {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    ul {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        margin-right: 0;
+    }
+}
+
+/* EXTRA SMALL DEVICES */
+@media (max-width: 480px) {
+
+    .nav-search {
+        height: 35px;
+    }
+
+    .search-input {
+        font-size: 0.85rem;
+    }
+
+    .panel-deals {
+        display: none;
+    }
+
+    ul {
+        width: 90%;
+        text-align: center;
+    }
+
+    .wrld-logo {
+        width: auto;
+        padding: 6px;
+    }
+}
+
